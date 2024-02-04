@@ -1,0 +1,123 @@
+#ulnav {
+    list-style-type: none;
+    margin: 2;
+    padding: 0;
+    display: flex;
+  }
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+/*Home*/
+#home{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("Background.jpg") no-repeat center center/cover;
+  height: 950px;
+  width: 100%;
+  z-index: -2;
+  opacity: none;
+}
+.headings {
+  color: aliceblue;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 180;
+  left: 30%;
+}
+
+#quote {
+  position: absolute;
+  top: 500;
+  left: 28%;
+  padding: 32px 10px;
+  border: 3px solid white;
+  min-width: 600px;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+#journey {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-top:960px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+}
+.journey-head{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top:-50px;
+}
+
+#hobbies{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-top:0px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d1c6c6;
+}
+
+#novels {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+img{
+  width: 300px;
+  height: 400px;
+}
